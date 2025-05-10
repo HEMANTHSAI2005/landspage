@@ -1,4 +1,4 @@
-const pricingToggle = document.getElementById('pricing-toggle');
+ const pricingToggle = document.getElementById('pricing-toggle');
 const priceAmounts = document.querySelectorAll('.price .amount');
 const priceDurations = document.querySelectorAll('.price .duration');
 
@@ -12,7 +12,7 @@ const monthlyPrices = {
   EUR: ['€17', '€26', '€36'],
   DNR: ['د. ك6', 'د. ك9', 'د. ك12'],
   INR: ['₹1580', '₹2420', '₹3256']    
-};
+};                     
 
 const annualPrices = {
   USD: ['$99', '$199', '$499'],
